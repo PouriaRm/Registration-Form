@@ -1,0 +1,32 @@
+.registration-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.dob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dob-item {
+  flex-basis: 30%;
+}
+
+.message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+body{
+  background-color: #f5f5f5 !important;
+}
+.btn-primary {
+  background-color: #127C95;
+  border-radius: 6px;
+}
