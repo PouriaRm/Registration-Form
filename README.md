@@ -1,7 +1,7 @@
-##User Account Registration Form
+## User Account Registration Form
 This is a simple user account registration form built using React and Bootstrap. It allows users to create a new account by providing their full name, email address, contact number, date of birth, and password.
 
-###Functionality
+### Functionality
 
 The form includes the following fields:
 
@@ -15,7 +15,7 @@ The form also includes the following buttons:
 
 Submit: A button that submits the form after validating all fields. It is enabled only if all fields are valid.
 Cancel: A button that clears all fields and resets the form.
-###Running the Application
+### Running the Application
 
 To run the application locally, follow these steps:
 
@@ -25,13 +25,13 @@ Install the dependencies using npm install
 Start the development server using npm start
 Open http://localhost:3000 to view it in the browser.
 
-###Live Demo
+### Live Demo
 Open https://king-prawn-app-cue5u.ondigitalocean.app
 
-###Contributors
+### Contributors
 
 Pouria Roostaei - Initial work
 
-###License
+### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
