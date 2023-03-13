@@ -277,7 +277,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
       
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group controlId='fullName'>
-          <Form.Label>Full Name</Form.Label>
+          <Form.Label>Full Name <span className="star">*</span></Form.Label>
           <Form.Control
             required
             type='text'
@@ -292,7 +292,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group controlId='email'>
-      <Form.Label>Email</Form.Label>
+      <Form.Label>Email <span className="star">*</span></Form.Label>
       <Form.Control
         required
         type='email'
@@ -308,7 +308,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
       </Form.Control.Feedback>
     </Form.Group>
     <Form.Group controlId='contactNumber'>
-  <Form.Label>Contact Number</Form.Label>
+  <Form.Label>Contact Number <span className="star">*</span></Form.Label>
   <InputGroup>
     
     <Form.Control
@@ -327,7 +327,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
   </InputGroup>
 </Form.Group>
 <Form.Group controlId='dateOfBirth'>
-  <Form.Label>Date of Birth</Form.Label>
+  <Form.Label>Date of Birth <span className="star">*</span></Form.Label>
   <div className='row'>
     <div className='col'>
       <Form.Control
@@ -390,7 +390,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
 </Form.Group>
 
     <Form.Group controlId='password'>
-      <Form.Label>Password</Form.Label>
+      <Form.Label>Password <span className="star">*</span></Form.Label>
       <Form.Control
         required
         type='password'
@@ -406,7 +406,7 @@ for (let i = currentYear; i >= currentYear - 100; i--) {
       </Form.Control.Feedback>
     </Form.Group>
     <Form.Group controlId='confirmPassword'>
-      <Form.Label>Confirm Password</Form.Label>
+      <Form.Label>Confirm Password <span className="star">*</span></Form.Label>
       <Form.Control
         required
         type='password'
